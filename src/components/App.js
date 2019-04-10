@@ -3,7 +3,6 @@ import Projects from './Projects.js';
 import Profiles from './Profiles.js';
 import profilePicture from '../assets/MyProfilePic.jpg';
 import Title from './Title.js';
-import Jokes from './Jokes.js';
 
 // Note: Cannot have a line break between return and opening (
 
@@ -49,8 +48,6 @@ class App extends Component
                 <Projects />
                 <hr />
                 <Profiles />
-                <hr />
-                <Jokes />
             </div>
         )
     }

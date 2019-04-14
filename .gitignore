@@ -23,4 +23,8 @@ yarn-debug.log*
 yarn-error.log*
 
 # Cache Files
-.cache
+/.cache/*
+
+# Hidden files/directories
+/.*
+!/.gitignore

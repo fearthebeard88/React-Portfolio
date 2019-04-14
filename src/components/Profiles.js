@@ -7,7 +7,7 @@ const Profile = (props) =>
 
     return (
         <div style={{display: 'inline-block', margin: 10}}>
-            <a target='blank' href={link}><img style={{width: 35, height: 35}} src={image} alt={title} /></a>
+            <a target='blank' href={link}><img style={{width: 35}} src={image} alt={title} /></a>
         </div>
     )
 }

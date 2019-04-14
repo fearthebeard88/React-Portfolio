@@ -6,6 +6,7 @@ import App from './components/App.js';
 import './index.css';
 import Jokes from './components/Jokes.js';
 import Header from './components/Header.js';
+import MusicMaster from './projects/music-master';
 
 // React under the hood will evaluate an attribute to
 // true if you do not specify it.
@@ -16,6 +17,7 @@ ReactDOM.render(
     <Switch>
         <Route exact path='/' render={()=>{return <Header><App /></Header>}} />
         <Route path='/jokes' render={()=>{return <Header><Jokes /></Header>}} />
+        <Route path='/music-master' render={()=>{return <Header><MusicMaster /></Header>}} />
     </Switch>
 </Router>,
  document.getElementById('root'));

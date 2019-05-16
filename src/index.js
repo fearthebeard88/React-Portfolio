@@ -7,6 +7,7 @@ import './index.css';
 import Jokes from './components/Jokes.js';
 import Header from './components/Header.js';
 import MusicMaster from './projects/music-master';
+import EvensOrOdds from './projects/EvensOrOdds';
 
 // React under the hood will evaluate an attribute to
 // true if you do not specify it.
@@ -18,6 +19,7 @@ ReactDOM.render(
         <Route exact path='/' render={()=>{return <Header><App /></Header>}} />
         <Route path='/jokes' render={()=>{return <Header><Jokes /></Header>}} />
         <Route path='/music-master' render={()=>{return <Header><MusicMaster /></Header>}} />
+        <Route path='/evens-or-odds' render={()=>{return <Header><EvensOrOdds /></Header>}} />
     </Switch>
 </Router>,
  document.getElementById('root'));
